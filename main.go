@@ -18,8 +18,6 @@ import (
 
 const playlistM3U8 = "stream.m3u8"
 
-var ffmpegProc int
-
 func main() {
 	host := flag.String("h", "", "Host m3u8 streaming (Opcional)")
 	port := flag.Int("p", 8100, "Porta m3u8 streaming (Opcional)")
